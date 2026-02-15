@@ -33,8 +33,8 @@ if (isset($_GET['search'])) {
 
 <h2>Search Players</h2>
 
-<form method="GET">
-    <input type="text" name="search" placeholder="Search gamer tag..." value="<?php echo htmlspecialchars($search); ?>">
+<form method="GET" class="search-form">
+    <input class="search-input" type="text" name="search" placeholder="Search gamer tag..." value="<?php echo htmlspecialchars($search); ?>">
     <button type="submit">Search</button>
 </form>
 
