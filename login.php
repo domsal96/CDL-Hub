@@ -1,6 +1,8 @@
 <?php
 session_start();
 require 'config.php';
+require 'header.php';
+
 
 $message = "";
 
@@ -44,6 +46,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <html>
 <head>
     <title>Login - CDL Hub</title>
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
 
