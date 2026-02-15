@@ -51,6 +51,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </head>
 <body>
 
+<div class="login-container">
 <h2>Login</h2>
 
 <p style="color:red;"><?php echo $message; ?></p>
@@ -66,6 +67,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </form>
 
 <p>Don't have an account? <a href="register.php">Register here</a></p>
+</div>
 
 </body>
 </html>
