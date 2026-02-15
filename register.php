@@ -39,6 +39,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<div class="login-wrapper">
+<form method="POST" class="login-form">
 
 <h2>Register</h2>
 
@@ -55,9 +57,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <input type="password" name="password" required><br><br>
 
     <button type="submit">Register</button>
-</form>
+    <p>Already have an account? <a href="login.php">Login here</a></p>
 
-<p>Already have an account? <a href="login.php">Login here</a></p>
+</form>
+</div>
+
 
 </body>
 </html>
