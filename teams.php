@@ -13,7 +13,7 @@ if ($_SERVER["REQUEST_METHOD"] == "GET" && isset($_GET['search'])) {
     $query = "SELECT * FROM teams WHERE team_name LIKE ?";
     $stmt = $conn->prepare($query);
 
-    $search_param = "%" . $search . "%"; // Wildcard support
+    $search_param = "%" . $search . "%"; 
     $stmt->bind_param("s", $search_param);
     $stmt->execute();
 
@@ -37,8 +37,8 @@ if ($_SERVER["REQUEST_METHOD"] == "GET" && isset($_GET['search'])) {
 
 <h2>Search Teams</h2>
 
-<form method="GET">
-    <input type="text" name="search" placeholder="Search team name..." value="<?php echo htmlspecialchars($search); ?>">
+<form method="GET" class="search-form">
+    <input class="search-input" type="text" name="search" placeholder="Search team name..." value="<?php echo htmlspecialchars($search); ?>">
     <button type="submit">Search</button>
 </form>
 
