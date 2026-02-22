@@ -44,8 +44,6 @@ if ($_SERVER["REQUEST_METHOD"] == "GET" && isset($_GET['search'])) {
 
 <hr>
 
-<h3>Results:</h3>
-
 <?php if (count($results) > 0): ?>
     <table border="1" cellpadding="5">
         <tr>
