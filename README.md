@@ -35,12 +35,12 @@ A web application for Call of Duty League fans to track teams, players, and matc
 
 ## Database Tables
 
-- `users` — registered user accounts
-- `teams` — CDL team records
-- `players` — CDL player records
-- `matches` — match schedule and results
-- `team_favorites` — user saved team favourites
-- `player_favorites` — user saved player favourites
+- `users`  registered user accounts
+- `teams`  CDL team records
+- `players`  CDL player records
+- `matches`  match schedule and results
+- `team_favorites`  user saved team favourites
+- `player_favorites`  user saved player favourites
 
 ## Security Features
 
