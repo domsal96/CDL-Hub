@@ -46,7 +46,7 @@ A web application for Call of Duty League fans to track teams, players, and matc
 
 - Passwords hashed using `password_hash()` with `PASSWORD_DEFAULT`
 - CSRF tokens on all forms and AJAX requests
-- Brute force protection — 5 minute lockout after 5 failed login attempts
+- Brute force protection  5 minute lockout after 5 failed login attempts
 - Session regeneration on login to prevent session fixation
 - Secure session cookie settings (`httponly`, `samesite`)
 - PHP error output suppressed in production
