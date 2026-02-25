@@ -54,4 +54,4 @@ A web application for Call of Duty League fans to track teams, players, and matc
 
 ## Author
 
-Dominic Salvador — [GitHub Profile](https://github.com/domsal96)
+Dominic Salvador  [GitHub Profile](https://github.com/domsal96)
